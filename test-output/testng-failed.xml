@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Suite]">
+  <parameter name="browser" value="Chrome"/>
+  <listeners>
+    <listener class-name="utils.listeners.TestListener"/>
+    <listener class-name="utils.listeners.AnnotationTransformer"/>
+  </listeners>
+  <test name="Salesforce Application Flow (failed)">
+    <classes>
+      <class name="TestCase.CaseCreationTest">
+        <methods>
+          <include name="openBroswer"/>
+          <include name="CaseCreation"/>
+          <include name="teardown"/>
+          <include name="setupTestData"/>
+        </methods>
+      </class> <!-- TestCase.CaseCreationTest -->
+    </classes>
+  </test> <!-- Salesforce Application Flow (failed) -->
+</suite> <!-- Failed suite [Test Suite] -->

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Suite" duration-ms="65275" started-at="2018-10-21T15:54:21Z" finished-at="2018-10-21T15:55:26Z">
+    <groups>
+    </groups>
+    <test name="Salesforce Application Flow " duration-ms="65275" started-at="2018-10-21T15:54:21Z" finished-at="2018-10-21T15:55:26Z">
+      <class name="TestCase.CaseCreationTest">
+        <test-method status="PASS" signature="setupTestData()[pri:0, instance:TestCase.CaseCreationTest@192f2f27]" name="setupTestData" is-config="true" duration-ms="2207" started-at="2018-10-21T21:24:21Z" finished-at="2018-10-21T21:24:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTestData -->
+        <test-method status="PASS" signature="openBroswer(java.lang.String)[pri:0, instance:TestCase.CaseCreationTest@192f2f27]" name="openBroswer" is-config="true" duration-ms="9316" started-at="2018-10-21T21:24:23Z" description="Class Level Setup!" finished-at="2018-10-21T21:24:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBroswer -->
+        <test-method status="PASS" signature="CaseCreation()[pri:0, instance:TestCase.CaseCreationTest@192f2f27]" name="CaseCreation" duration-ms="42059" started-at="2018-10-21T21:24:32Z" description="Creating a New Case" finished-at="2018-10-21T21:25:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CaseCreation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestCase.CaseCreationTest@192f2f27]" name="teardown" is-config="true" duration-ms="9424" started-at="2018-10-21T21:25:17Z" description="Class Level Teardown!" finished-at="2018-10-21T21:25:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCase.CaseCreationTest -->
+    </test> <!-- Salesforce Application Flow  -->
+  </suite> <!-- Test Suite -->
+</testng-results>
